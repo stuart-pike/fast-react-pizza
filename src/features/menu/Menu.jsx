@@ -3,7 +3,7 @@ import { getMenu } from '../../services/apiRestaurant';
 import MenuItem from './MenuItem';
 
 function Menu() {
-  const menu = useLoaderData(); // 3. Provide data to the page
+  const menu = useLoaderData();
 
   return (
     <ul className="divide-y divide-stone-200 px-2">

@@ -6,7 +6,7 @@ import {
   useNavigation,
 } from 'react-router-dom/dist';
 import { createOrder } from '../../services/apiRestaurant';
-import Button from '../../ui/button';
+import Button from '../../ui/Button';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAddress } from '../user/userSlice';
 import { clearCart, getCart, getTotalCartPrice } from '../cart/cartSlice';
