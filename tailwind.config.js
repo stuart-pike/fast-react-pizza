@@ -14,6 +14,9 @@ export default {
       height: {
         screen: '100dvh',
       },
+      width: {
+        screen: '100dvw',
+      },
     },
   },
   plugins: [],
